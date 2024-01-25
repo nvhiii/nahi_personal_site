@@ -1,0 +1,144 @@
+body {
+
+    /* vh = view port height */
+    height: 100vh;
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.navbar img {
+
+    flex-shrink: 0;
+
+}
+
+ul {
+
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+
+    color: black;
+
+}
+
+.right-side {
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.left-side {
+
+    display: flex;
+    align-items: center;
+
+}
+
+a {
+
+    text-decoration: none;
+    color:black;
+
+}
+
+.main {
+
+    height: 100vh;
+
+}
+
+/* credit to codepen typing effect by user Marko */
+.typer {
+  height: 300px;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 14ch;
+  animation: typing 2s steps(14), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+
+}
+
+.sec {
+
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex: auto;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 50px;
+
+}
+
+button {
+
+    border-radius: 8%;
+    height: 30px;
+    width: 100px;
+    background-color:goldenrod;
+
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+
+}
+
+.footer ul {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer .second-row {
+
+    display: flex;
+    justify-content: center;
+
+}

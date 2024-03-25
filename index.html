@@ -1,108 +1,116 @@
 <!-- in root dir and not in html folder bc hosted on pages -->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <head>
+    <!-- title of tab -->
+    <title>Nahi Khan</title>
 
-        <!-- metadata -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Script -->
+    <script src="./scripts/index.js" defer></script>
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-        <!-- link stylesheet -->
-        <link rel="stylesheet" href="./css/styles.css">
-
-        <!-- title of tab -->
-        <title>Nahi's Site</title>
-
-    </head>
-
-    <body>
-
-        <!-- page content -->
-        <!-- organize in flex containers -->
-        <div class="navbar">
-
-            <div class="left-side">
-
-                <div class="logo">
-
-                    <a href="index.html" rel="noopener noreferrer">
-                        <img src="./imgs/n.svg">
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="right-side">
-
-                <ul>
-                    <li>
-                        <a href="about-me.html" rel="noopener noreferrer">About Me</a>
-                    </li>
-                    <li>Directory</li>
-                </ul>
-
-            </div>
-
+  <body>
+    <!-- page content -->
+    <!-- organize in flex containers -->
+    <div class="navbar">
+      <div class="left-side">
+        <div class="logo">
+          <a href="index.html" rel="noopener noreferrer">
+            <img src="./imgs/n.svg" />
+          </a>
         </div>
+      </div>
 
-        <div class="main">
-            <div class="typer">
-                <div class="typing-demo">
-                  Welcome, Nahi.
-                </div>
-            </div>
-    
-            <div class="content">
-    
-                <div class="sec">
-    
-                    <div class="sec-right">
-                        <button>To Do</button>
-                    </div>
-    
-                    <div class="sec-left">
-                        <button onclick="calendarRedirect()">Calendar</button>
-                    </div>
-                    
-                </div>
-    
-            </div>
+      <div class="right-side">
+        <ul>
+          <li>
+            <a href="#projects" rel="noopener noreferrer">Projects</a>
+          </li>
+          <li>
+            <a href="#experience" rel="noopener noreferrer">Experience</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="typer">
+        <div class="typing-demo">Nahi Khan</div>
+      </div>
+
+      <div class="about-me-section">
+        <div class="about-me">
+          <p>
+            Hey, I'm Nahi!
+            <br />
+            <br />
+            I'm a software engineering mentee at Google and a computer science
+            student at Brooklyn College. In my free time, I like to lift
+            weights, cook, play basketball, curate playlists, and solve trivial
+            problems by scripting.
+            <br />
+            <br />
+            Currently, I am seeking a software engineering internship for Summer
+            2024.
+          </p>
         </div>
-        
-        <div class="footer">
+      </div>
+      <div class="links">
+        <ul>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1ehIxZlW_7hh5AUjtf9nDa2L7QnMsi1m1/view?usp=drive_link"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/nvhiii" rel="noopener noreferrer">
+              <img src="./imgs/iconmonstr-github-1.svg" alt="Github logo" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nahi-khan"
+              rel="noopener noreferrer"
+            >
+              <img src="./imgs/iconmonstr-linkedin-3.svg" alt="Linkedin logo" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:nahikhan16@gmail.com">
+              <img src="./imgs/email-8-svgrepo-com.svg" alt="Email logo" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-            <div class="first-row">
+    <div id="experience">
+      <h3>Experience</h3>
+      <!-- <ul>
+        <li>
+          <span>1</span>
+          Hello
+        </li>
+        <li>
+          <span>2</span>
+          Hello
+        </li>
+        <li>
+          <span>3</span>
+          Hello
+        </li>
+      </ul> -->
+    </div>
 
-                <div class="footer-item">
-
-                    <ul>
-                        <li>
-                            <a href="sponsorship.html" rel="noopener noreferrer">Sponsor Us</a>
-                        </li>
-
-                        <li>
-                            <a href="mission-stmnt.html" rel="noopener noreferrer">Our Mission</a>
-                        </li>
-
-                        <li>
-                            <a href="faq.html" rel="noopener noreferrer">FAQ</a>
-                        </li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-            <div class="second-row">
-                &copy; Nahi 2024
-            </div>
-
-        </div>
-
-        <script src="./scripts/index.js"></script>
-
-    </body>
-
+    <div id="projects">
+      <h3>Projects</h3>
+    </div>
+  </body>
 </html>

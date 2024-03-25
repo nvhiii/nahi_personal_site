@@ -1,76 +1,80 @@
 body {
-
-    /* vh = view port height */
-    height: 100vh;
-
+  /* vh = view port height */
+  height: 100vh;
 }
 
 .navbar {
-
-    display: flex;
-    justify-content: space-between; 
-    padding: 10px;
-    margin-bottom: 20px;
-
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .navbar img {
-
-    flex-shrink: 0;
-
+  flex-shrink: 0;
 }
 
-ul {
+.right-side ul {
+  display: flex;
+  list-style-type: none;
 
-    display: flex;
-    list-style-type: none;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+}
 
-    color: black;
+.links {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.links ul {
+  display: flex;
+  list-style-type: none;
+
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  justify-content: end;
 }
 
 .right-side {
-
-    display: flex;
-    align-items: center;
-    padding: 10px;
-
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .left-side {
-
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
-a {
-
-    text-decoration: none;
-    color:black;
-
+.right-side a {
+  color: black;
+  text-decoration: none;
 }
 
-.main {
-
-    height: 100vh;
-
+.main,
+#projects,
+#experience {
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 /* credit to codepen typing effect by user Marko */
 .typer {
-  height: 300px;
+  height: 100px;
   /*This part is important for centering*/
   display: grid;
-  place-items: center;
+  place-items: center start;
 }
 
 .typing-demo {
-  width: 14ch;
-  animation: typing 2s steps(14), blink .5s step-end infinite alternate;
+  width: 9ch;
+  animation: typing 0.5s steps(9), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -80,65 +84,58 @@ a {
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
-    
+
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
 
 .content {
-
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
 }
 
 .sec {
-
-    display: flex;
-    width: 100%;
-    height: 300px;
-    flex: auto;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 50px;
-
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex: auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 50px;
 }
 
 button {
-
-    border-radius: 8%;
-    height: 30px;
-    width: 100px;
-    background-color:goldenrod;
-
+  border-radius: 8%;
+  height: 30px;
+  width: 100px;
+  background-color: goldenrod;
 }
 
 .footer {
-
-    display: flex;
-    flex-direction: column;
-    background-color: #eeeeee;
-
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
 }
 
 .footer ul {
-
-    display: flex;
-    justify-content: space-evenly;
-
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer .second-row {
+  display: flex;
+  justify-content: center;
+}
 
-    display: flex;
-    justify-content: center;
-
+.links img {
+  height: 20px;
+  width: auto;
 }

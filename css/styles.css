@@ -58,7 +58,7 @@ body {
 }
 
 .main,
-#projects,
+#project,
 #experience {
   padding-left: 15%;
   padding-right: 15%;
@@ -78,8 +78,8 @@ body {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5em;
 }
 
 @keyframes typing {
@@ -138,4 +138,56 @@ button {
 .links img {
   height: 20px;
   width: auto;
+}
+
+ul.experiences,
+ul.projects {
+  list-style-type: none;
+}
+
+ul.experiences li,
+ul.projects li {
+  position: relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+  /* use padding-bottom instead of margin-bottom.*/
+  margin-bottom: 0; /* This overrides previously specified margin-bottom */
+  padding-bottom: 1.5em;
+}
+
+ul.experiences li:after,
+ul.projects li:after {
+  /* bullets */
+  content: url("http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RedDisc.svg/20px-RedDisc.svg.png");
+  position: absolute;
+  left: -35px; /*adjust manually*/
+  top: 0px;
+}
+
+ul.experiences li:before,
+ul.projects li:before {
+  /* lines */
+  content: "";
+  position: absolute;
+  left: -25px; /* adjust manually */
+  border-left: 1px solid black;
+  height: 100%;
+  width: 1px;
+}
+
+ul.experiences li:first-child:before,
+ul.projects li:first-child::before {
+  /* first li's line */
+  top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.experiences li:last-child:before,
+ul.projects li:last-child:before {
+  /* last li's line */
+  height: 4px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+.crimson-pro-theme {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }

@@ -60,7 +60,7 @@
     <script src="./scripts/index.js" defer></script>
   </head>
 
-  <body>
+  <body class="wht">
     <!-- page content -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm">
@@ -86,15 +86,17 @@
         class="collapse navbar-collapse justify-content-end crimson-pro-theme pe-5 text-end"
         id="myNav"
       >
-        <ul class="navbar-nav">
+        <ul class="navbar-nav nav-pi">
           <li class="nav-item">
-            <a class="nav-link" href="./html/experience.html">Experience</a>
+            <a class="nav-link link-style" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link link-style" href="#">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./html/gallery.html">Gallery</a>
+            <a class="nav-link link-style" href="./html/gallery.html"
+              >Gallery</a
+            >
           </li>
         </ul>
       </div>
@@ -131,14 +133,15 @@
               ><span>l</span><span>e</span>
             </div>
             and a computer science student at Brooklyn College. In my free time,
-            I like to lift weights, cook, play basketball, curate playlists, and
+            I like to lift weights, cook, play basketball, curate playlists,
+            appreciate impressionists, and
             <em>pspsps</em> at NYC stray cats.
           </div>
         </div>
       </div>
       <div class="row mx-3">
         <div class="col-md-12 justify-content-end links">
-          <ul class="d-flex list-unstyled m-0 pt-sm-3 pe-2">
+          <ul class="d-flex list-unstyled m-0 mt-3 pt-sm-3 pe-2">
             <li>
               <a class="text-decoration-none" href="#">Resume</a>
             </li>
@@ -165,6 +168,115 @@
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+
+    <!-- break -->
+    <div class="break d-flex">
+      <div class="spacer"></div>
+      <img class="m-3" src="./imgs/ch-nb.png" />
+    </div>
+
+    <!-- will wrap in scrollspy later -->
+    <div class="container my-works" id="projects">
+      <div class="row mx-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+          <div
+            class="display-4 ps-3 animate__animated animate__fadeIn animate__delay-1s mb-3"
+          >
+            My work
+          </div>
+        </div>
+        <div class="col-md-7"></div>
+      </div>
+      <div class="row mx-4">
+        <div class="col-md-2"></div>
+        <div class="col-md-3 ps-4 mb-3">
+          <div class="card">
+            <img
+              src="./imgs/pexels-valery-anatolievich-485490101-18352382.jpg"
+              class="card-img-top"
+              alt="nyc skyline"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Proj 1</h5>
+              <p class="card-text">abc</p>
+              <a href="#" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ps-4 mb-3">
+          <div class="card">
+            <img
+              src="./imgs/turkey.jpg"
+              class="card-img-top"
+              alt="nyc skyline"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Proj 2</h5>
+              <p class="card-text">def</p>
+              <a href="#" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ps-4 mb-3">
+          <div class="card">
+            <img
+              src="./imgs/monet.jpg"
+              class="card-img-top"
+              alt="nyc skyline"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Proj 3</h5>
+              <p class="card-text">ghi</p>
+              <a href="#" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1 mb-3"></div>
+      </div>
+      <div class="row mx-4">
+        <div class="col-md-2"></div>
+        <div class="col-md-3 ps-4 mb-3">
+          <div class="card">
+            <img src="./imgs/poke.jpg" class="card-img-top" alt="nyc skyline" />
+            <div class="card-body">
+              <h5 class="card-title">Proj 4</h5>
+              <p class="card-text">jkl</p>
+              <a href="#" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ps-4 mb-3">
+          <div class="card">
+            <img
+              src="./imgs/straycat.jpg"
+              class="card-img-top"
+              alt="nyc skyline"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Proj 5</h5>
+              <p class="card-text">mno</p>
+              <a href="#" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ps-4 mb-3">
+          <div class="card">
+            <img
+              src="./imgs/jpnvillage.jpg"
+              class="card-img-top"
+              alt="nyc skyline"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Proj 6</h5>
+              <p class="card-text">pqr</p>
+              <a href="#" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1 mb-3"></div>
       </div>
     </div>
   </body>

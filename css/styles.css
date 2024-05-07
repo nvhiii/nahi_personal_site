@@ -181,3 +181,33 @@ ul.projects li:last-child:before {
   height: 20px;
   width: auto;
 }
+
+.link-style:hover {
+  transform: translateY(-3px);
+}
+
+.break {
+  height: 40vh;
+}
+
+.spacer {
+  height: inherit;
+  width: 20vw;
+}
+
+.break img {
+  height: 85%;
+  width: auto;
+}
+
+.splash {
+  background-color: #fccc0a;
+}
+
+.dk {
+  background-color: #191716;
+}
+
+.wht {
+  background-color: #fcf6de;
+}

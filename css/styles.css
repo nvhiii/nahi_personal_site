@@ -146,3 +146,38 @@ ul.projects li:last-child:before {
   font-weight: 300;
   font-style: normal;
 }
+
+/* google font styling */
+
+.google {
+  font-family: sans-serif;
+}
+
+.google span:nth-child(10n + 1) {
+  color: #4285f4;
+}
+
+.google span:nth-child(10n + 2) {
+  color: #ea4335;
+}
+
+.google span:nth-child(10n + 3) {
+  color: #fbbc05;
+}
+
+.google span:nth-child(10n + 4) {
+  color: #ef5350;
+}
+
+.google span:nth-child(10n + 5) {
+  color: #34a853;
+}
+
+.google span:nth-child(10n + 6) {
+  color: #ea4335;
+}
+
+.links img {
+  height: 20px;
+  width: auto;
+}

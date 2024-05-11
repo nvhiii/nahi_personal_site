@@ -216,3 +216,7 @@ ul.projects li:last-child:before {
   background-color: #004225;
   color: #fffdd0;
 }
+
+.lb {
+  background-color: #c4a484;
+}

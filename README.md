@@ -3,7 +3,7 @@
 </p>
 
 <h1>
-    <a href="nahi.dev" alt="nahi's website link">Nahi's Personal Site</a>
+    <a href="https://www.nahi.dev" alt="nahi's website link" style="text-decoration:none">Nahi's Personal Site</a>
 </h1>
 
 Nice to meet ya!

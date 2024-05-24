@@ -208,10 +208,6 @@ ul.projects li:last-child:before {
   background-color: #191716;
 }
 
-.wht {
-  background-color: #fcf6de;
-}
-
 .brg {
   background-color: #004225;
   color: #fffdd0;
@@ -219,4 +215,21 @@ ul.projects li:last-child:before {
 
 .lb {
   background-color: #c4a484;
+}
+
+.jasmine {
+  background-color: #fae588ff;
+}
+
+.white-ish {
+  background-color: #fcf6de;
+}
+
+.vanilla {
+  background-color: #fcefb4ff;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
 }

@@ -1,4 +1,4 @@
-![alt text](./imgs/n.svg)
+<img align="center" src="./imgs/n.svg" alt="n train logo">
 
 # Nahi's Personal Site
 

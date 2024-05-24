@@ -2,6 +2,8 @@
   <img src="./imgs/n.svg" alt="n train logo">
 </p>
 
-# Nahi's Personal Site
+<h1>
+    <a href="nahi.dev" alt="nahi's website link">Nahi's Personal Site</a>
+</h1>
 
 Nice to meet ya!

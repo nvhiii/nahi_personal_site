@@ -19,43 +19,6 @@ body {
   justify-content: end;
 }
 
-.main,
-#project,
-#experience {
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-/* credit to codepen typing effect by user Marko */
-.typer {
-  height: 100px;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center start;
-}
-
-.typing-demo {
-  width: 9ch;
-  animation: typing 0.5s steps(9), blink 0.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 3.5em;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -74,70 +37,14 @@ body {
   gap: 50px;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #eeeeee;
-}
-
 .footer ul {
   display: flex;
   justify-content: space-evenly;
 }
 
-.footer .second-row {
-  display: flex;
-  justify-content: center;
-}
-
 .links img {
   height: 20px;
   width: auto;
-}
-
-ul.experiences,
-ul.projects {
-  list-style-type: none;
-}
-
-ul.experiences li,
-ul.projects li {
-  position: relative; /* so that pseudoelements are positioned relatively to their "li"s*/
-  /* use padding-bottom instead of margin-bottom.*/
-  margin-bottom: 0; /* This overrides previously specified margin-bottom */
-  padding-bottom: 1.5em;
-}
-
-ul.experiences li:after,
-ul.projects li:after {
-  /* bullets */
-  content: url("http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RedDisc.svg/20px-RedDisc.svg.png");
-  position: absolute;
-  left: -35px; /*adjust manually*/
-  top: 0px;
-}
-
-ul.experiences li:before,
-ul.projects li:before {
-  /* lines */
-  content: "";
-  position: absolute;
-  left: -25px; /* adjust manually */
-  border-left: 1px solid black;
-  height: 100%;
-  width: 1px;
-}
-
-ul.experiences li:first-child:before,
-ul.projects li:first-child::before {
-  /* first li's line */
-  top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
-}
-
-ul.experiences li:last-child:before,
-ul.projects li:last-child:before {
-  /* last li's line */
-  height: 4px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
 }
 
 .crimson-pro-theme {
@@ -186,6 +93,20 @@ ul.projects li:last-child:before {
   transform: translateY(-3px);
 }
 
+.link-resume {
+  text-decoration: none;
+  color: black;
+}
+
+.link-resume:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.link-social:hover {
+  transform: scale(1.2);
+}
+
 .break {
   height: 40vh;
 }
@@ -206,11 +127,6 @@ ul.projects li:last-child:before {
 
 .dk {
   background-color: #191716;
-}
-
-.brg {
-  background-color: #004225;
-  color: #fffdd0;
 }
 
 .lb {

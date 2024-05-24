@@ -29,10 +29,14 @@
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
-      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
     ></script>
 
     <!-- min animate css -->
@@ -53,9 +57,10 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm">
       <!-- logo -->
-      <a href="#" class="navbar-brand ps-5">
+      <a href="./index.html" class="navbar-brand ps-5">
         <img src="./imgs/n.svg" alt="n-train logo" />
       </a>
+
       <!-- toggle hamburger -->
       <button
         class="navbar-toggler me-5 ms-5"
@@ -132,11 +137,15 @@
         <div class="col-md-12 justify-content-end links">
           <ul class="d-flex list-unstyled m-0 mt-3 pt-sm-3 pe-2">
             <li>
-              <a class="text-black fw-bold" href="#">Resume</a>
+              <a class="link-resume" href="#">Resume</a>
             </li>
             <li>
               <a href="https://github.com/nvhiii">
-                <img src="./imgs/iconmonstr-github-1.svg" alt="Github logo" />
+                <img
+                  src="./imgs/iconmonstr-github-1.svg"
+                  alt="Github logo"
+                  class="link-social"
+                />
               </a>
             </li>
             <li>
@@ -147,12 +156,17 @@
                 <img
                   src="./imgs/iconmonstr-linkedin-3.svg"
                   alt="Linkedin logo"
+                  class="link-social"
                 />
               </a>
             </li>
             <li>
               <a href="mailto:nahikhan16@gmail.com">
-                <img src="./imgs/email-8-svgrepo-com.svg" alt="Email logo" />
+                <img
+                  src="./imgs/email-8-svgrepo-com.svg"
+                  alt="Email logo"
+                  class="link-social"
+                />
               </a>
             </li>
           </ul>

@@ -1,4 +1,6 @@
-<img align="center" src="./imgs/n.svg" alt="n train logo">
+<p align="center">
+  <img src="./imgs/n.svg" alt="n train logo">
+</p>
 
 # Nahi's Personal Site
 
